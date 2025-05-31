@@ -1,23 +1,18 @@
-# SEF-Project starter repository Autumn 2025
+# Trail Quest
+A website where users can browse, review and submit trails.
 
-## Brief Project Documentation
-Add the required details as listed in the Project Specification
+![trail-quest](https://github.com/user-attachments/assets/4918b5aa-27a6-4d6c-a343-0824f16024e3)
 
-### Group Name:
+## Brief Documentation
 
-- PAR Group 18
+### Creators:
 
-### Group Member List:
-List the **names** and **Student ID** for each team member.
+1. GYLLES VARGA 
+2. TOMMY TRAN
 
-1. **Student 1**: GYLLES VARGA  -   22132989
-2. **Student 2**: TOMMY TRAN    -   22153793
-3. **Student 3**: IVAN LAU      -   22030122
-4. **Student 4**:
 ----  
 
 ### Installation and setup instructions.
-Detail any relevant instructions that the marker will need to follow to set up your Django project for marking.
 
 1.  **Create a virtual environment and activate it**:
 ```bash
