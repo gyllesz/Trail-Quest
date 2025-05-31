@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-u+8=m7$p%4*xndh=#t5!)z6br&h1j7qdotm-iu4$96*aeie=*)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["172.20.10.5", "127.0.0.1"]
+ALLOWED_HOSTS = ['trail-quest.onrender.com']
 
 
 # Application definition
