@@ -1,0 +1,285 @@
+[
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$Dd2eFvUwYZSCGmCMHAgJbU$WNfMwVUUor+qPbYNxszrg4oKMKZbiSJ0wz80TqeJj+w=",
+    "last_login": "2025-05-28T23:27:43.866Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-05-20T02:06:54.923Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$nZ73yPLPjMhCPEJFKqAO1q$bMmzwCKxFGuK2HgMLkKESKYFze+rr8fU2VIOJoJQD/o=",
+    "last_login": "2025-05-28T23:25:00.515Z",
+    "is_superuser": false,
+    "username": "joshcruz",
+    "first_name": "",
+    "last_name": "",
+    "email": "joshcruz@email.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-05-20T02:15:20.697Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$wX3w2gmR71kc7gQXovt1a4$b8fVJLeJhiUK3bv3LKSqMn5XCZhdvEIfghfQKGQmEYw=",
+    "last_login": "2025-05-29T01:37:53.515Z",
+    "is_superuser": false,
+    "username": "gylles",
+    "first_name": "",
+    "last_name": "",
+    "email": "gylles@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-05-20T06:48:03.954Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$Ue1CVs2grGK3TO6JbLGP8J$4oq7DVYYfZHEEGywApl4vJ2dhfpCOaFWkBhn3pTwzmY=",
+    "last_login": "2025-05-21T13:41:29.536Z",
+    "is_superuser": false,
+    "username": "tommy@gmail.com",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-05-21T07:38:56.756Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 6,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$S7ZElEetkLphubNCdGyPnQ$7CbYPrhoPqf9la/2IzkcFeerzYQIpJ8HfQ8dw5yc07Y=",
+    "last_login": "2025-05-28T23:15:23.942Z",
+    "is_superuser": false,
+    "username": "urveshpatel614@gmail.com",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-05-28T23:15:23.182Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 7,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$CPrezMkRw0oPGtwIFfGWSA$AkYvQDU/I+0R6Oy810kxO/vIpYECxBtpiCX3Q9d5Q0o=",
+    "last_login": "2025-05-28T23:20:42.408Z",
+    "is_superuser": false,
+    "username": "group18@gmail.com",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-05-28T23:20:41.676Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "trailQuest.trail",
+  "pk": 1,
+  "fields": {
+    "name": "Mount Kosciuszko Summit walk",
+    "location": "National Park",
+    "latitude": null,
+    "longitude": null,
+    "start_point": "",
+    "end_point": "",
+    "distance": "3.60",
+    "elevation_gain": "30.00",
+    "difficulty_level": "Beginner",
+    "trail_type": "Out & Back",
+    "estimated_time": "4.20",
+    "trail_conditions": "",
+    "accessibility": "",
+    "photos": "trail_photos/b24b72ff83971b1bff0ba798dc614cdb.jpeg",
+    "user_notes": "",
+    "date_submitted": "2025-05-20T02:23:27.672Z",
+    "status": "approved",
+    "approved_by": 1,
+    "admin_comments": "None"
+  }
+},
+{
+  "model": "trailQuest.trail",
+  "pk": 2,
+  "fields": {
+    "name": "Cape Byron walking track",
+    "location": "Byron Bay",
+    "latitude": null,
+    "longitude": null,
+    "start_point": "",
+    "end_point": "",
+    "distance": "7.90",
+    "elevation_gain": "150.00",
+    "difficulty_level": "Advanced",
+    "trail_type": "Loop",
+    "estimated_time": "1.20",
+    "trail_conditions": "",
+    "accessibility": "",
+    "photos": "trail_photos/dea84bcb554c58fe2070407cf8fb9ee3.jpeg",
+    "user_notes": "",
+    "date_submitted": "2025-05-20T02:28:54.017Z",
+    "status": "approved",
+    "approved_by": 1,
+    "admin_comments": "None"
+  }
+},
+{
+  "model": "trailQuest.trail",
+  "pk": 3,
+  "fields": {
+    "name": "Sunset Ridge Trail",
+    "location": "Sunset National Park",
+    "latitude": "34.123450",
+    "longitude": "150.543210",
+    "start_point": null,
+    "end_point": null,
+    "distance": "8.20",
+    "elevation_gain": "300.00",
+    "difficulty_level": "Intermediate",
+    "trail_type": "Loop",
+    "estimated_time": "2.50",
+    "trail_conditions": null,
+    "accessibility": null,
+    "photos": "",
+    "user_notes": null,
+    "date_submitted": "2025-05-20T02:39:09.970Z",
+    "status": "approved",
+    "approved_by": 1,
+    "admin_comments": "None"
+  }
+},
+{
+  "model": "trailQuest.trail",
+  "pk": 4,
+  "fields": {
+    "name": "Misty Peak Walk",
+    "location": "Foggy Hills Reserve",
+    "latitude": "-35.654320",
+    "longitude": "149.876540",
+    "start_point": null,
+    "end_point": null,
+    "distance": "12.00",
+    "elevation_gain": "450.00",
+    "difficulty_level": "Advanced",
+    "trail_type": "Point-to-Point",
+    "estimated_time": "4.00",
+    "trail_conditions": "",
+    "accessibility": "",
+    "photos": "trail_photos/akaroa__7500336.jpg",
+    "user_notes": "",
+    "date_submitted": "2025-05-20T02:39:10Z",
+    "status": "approved",
+    "approved_by": 1,
+    "admin_comments": "None"
+  }
+},
+{
+  "model": "trailQuest.trail",
+  "pk": 10,
+  "fields": {
+    "name": "river",
+    "location": "parramatta",
+    "latitude": null,
+    "longitude": null,
+    "start_point": "",
+    "end_point": "",
+    "distance": "1.00",
+    "elevation_gain": "1.00",
+    "difficulty_level": "Beginner",
+    "trail_type": "Loop",
+    "estimated_time": "1.00",
+    "trail_conditions": "",
+    "accessibility": "",
+    "photos": "trail_photos/licensed-image_k0mAXyD.jpeg",
+    "user_notes": "",
+    "date_submitted": "2025-05-28T23:23:58.848Z",
+    "status": "approved",
+    "approved_by": 1,
+    "admin_comments": "None"
+  }
+},
+{
+  "model": "trailQuest.review",
+  "pk": 1,
+  "fields": {
+    "trail": 4,
+    "user": 2,
+    "rating": "5",
+    "comment": "Amazing!"
+  }
+},
+{
+  "model": "trailQuest.review",
+  "pk": 2,
+  "fields": {
+    "trail": 2,
+    "user": 2,
+    "rating": "4",
+    "comment": "Recommend"
+  }
+},
+{
+  "model": "trailQuest.review",
+  "pk": 3,
+  "fields": {
+    "trail": 2,
+    "user": 4,
+    "rating": "5",
+    "comment": "Nice!"
+  }
+},
+{
+  "model": "trailQuest.review",
+  "pk": 4,
+  "fields": {
+    "trail": 2,
+    "user": 4,
+    "rating": "2",
+    "comment": ""
+  }
+},
+{
+  "model": "trailQuest.review",
+  "pk": 5,
+  "fields": {
+    "trail": 3,
+    "user": 2,
+    "rating": "3",
+    "comment": "This is a new comment"
+  }
+}
+]
