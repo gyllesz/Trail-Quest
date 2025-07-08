@@ -208,31 +208,6 @@
   }
 },
 {
-  "model": "trailQuest.trail",
-  "pk": 10,
-  "fields": {
-    "name": "river",
-    "location": "parramatta",
-    "latitude": null,
-    "longitude": null,
-    "start_point": "",
-    "end_point": "",
-    "distance": "1.00",
-    "elevation_gain": "1.00",
-    "difficulty_level": "Beginner",
-    "trail_type": "Loop",
-    "estimated_time": "1.00",
-    "trail_conditions": "",
-    "accessibility": "",
-    "photos": "trail_photos/licensed-image_k0mAXyD.jpeg",
-    "user_notes": "",
-    "date_submitted": "2025-05-28T23:23:58.848Z",
-    "status": "approved",
-    "approved_by": 1,
-    "admin_comments": "None"
-  }
-},
-{
   "model": "trailQuest.review",
   "pk": 1,
   "fields": {

@@ -11,8 +11,9 @@ https://docs.djangoproject.com/en/5.2/ref/settings/
 """
 
 from pathlib import Path
-import dj_database_url 
 import os
+import dj_database_url
+from decouple import config
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -27,8 +28,7 @@ SECRET_KEY = 'django-insecure-u+8=m7$p%4*xndh=#t5!)z6br&h1j7qdotm-iu4$96*aeie=*)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['trail-quest.onrender.com']
-
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'trail-quest.onrender.com']
 
 # Application definition
 
@@ -78,13 +78,10 @@ WSGI_APPLICATION = 'web_project.wsgi.application'
 
 DATABASES = {
     'default': dj_database_url.config(
-        default=os.environ.get("DATABASE_URL"),
+        default=config('DATABASE_URL'),
         conn_max_age=600,
-        ssl_require=True
     )
 }
-
-
 
 # Password validation
 # https://docs.djangoproject.com/en/5.2/ref/settings/#auth-password-validators
